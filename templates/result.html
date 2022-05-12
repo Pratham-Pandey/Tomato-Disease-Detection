@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Result</title>
+        <style>
+            body{
+                font-family:cursive, verdana, sans-serif;
+                color:orangeac
+            }
+            #userImage{
+                border-radius:30px;
+            }
+            h1,h3{
+                color:rgb(204,0,0);
+                font-size:25px;
+            }
+            p{
+                color:orange;
+                font-size:20px;
+             }
+             a{
+                font-size:18px;
+             }
+        </style>
+    </head>
+    <body background="/static/tomatoes2.jpg">
+        <center>
+            <h3 > Input Image:-</h3>
+            <img id="userImage"  src="/static/uploads/{{ result['file' ]}}" alt="Tomato Leaf">
+            <h3> Disease Identified:</h3>
+            <p>{{ result['opt'] }}</p>
+            <a href="/"> Check Another </a>
+        </center>
+    </body>
+</html>

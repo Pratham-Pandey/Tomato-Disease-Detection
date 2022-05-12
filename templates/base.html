@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tomato Disease Classifier</title>
+        <style>
+            #userImage{
+                border-radius:30px;
+            }
+            body{
+            font-family:cursive, verdana, sans-serif;
+            }
+            p{
+            color:orange;
+            font-size:20px
+            }
+            h1{
+            color:rgb(204,0,0);
+            }
+        </style>
+    </head>
+    <body background="/static/tomatoes.jpg">
+      <center>
+          <h1> Tomato Disease Classifier</h1>
+          <p>Every year farmers face huge loss due to various disease in their plants. Early identification of such disease
+              can help them to take necessary actions to prevent the loss.</p>
+          <p>Take image of leaf of a Tomato Plant and upload it below to check its type of Disease.</p>
+          <form action="/output" method="post" enctype="multipart/form-data">
+            <label style="color:rgb(204,0,0); font-size:18px" for="inputImage">Select Image:</label>
+            <input type="file" id="inputImage" name="inputImage" accept=".png, .jpg, .jpeg"><br>
+            <input type="submit" value="Submit">
+          </form>
+
+      </center>
+    </body>
+</html>
