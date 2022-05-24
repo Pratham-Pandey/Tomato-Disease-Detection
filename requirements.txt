@@ -12,3 +12,4 @@ six==1.16.0
 virtualenv==20.14.1
 Werkzeug==2.1.2
 zipp==3.8.0
+gunicorn
