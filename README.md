@@ -3,7 +3,7 @@
 ## What? 
 Tomato Disease Classifier aims to identify the disease of a tomato plant by inspecting its leaves. 
 
-## Why
+## Why?
 Every eary farmers face huge loss because of Plant Disease. Tomato Disease Detection will help tomato farmers in early identification of Tomato Disease so that they can take necessary action to prevent the loss.
 
 ## Who?
