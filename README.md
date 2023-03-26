@@ -17,8 +17,8 @@ The Tomato Disease Classifier use Image Classification to detect tomato plant di
 ## Installation:
 <ul>
   <li>Clone this Repository using "git clone".</li>
-  <li>Install "requirements.txt" using 
-    ``` pip install -r requirements.txt ```</li>
+  <li>Install "requirements.txt" using: </li>
+    ``` pip install -r requirements.txt ```
   <li>To run the site on local system run the "app.py" file on local system to get the URL</li>
 </ul>
 
