@@ -25,3 +25,8 @@ The Tomato Disease Classifier use Image Classification to detect tomato plant di
 </ul>
 
 ### NOTE: A webiste is also created for "Tomato Disease Classification" where user will upload the image of plant leaf and the model will predict the type of disease. The website has been created using Flask but has NOT BEEN HOSTED yet. To run the site on local system run the "app.py" file on local system to get the URL.    
+
+Install "requirements.txt" using:
+    ``` 
+    pip install -r requirements.txt 
+    ```
